@@ -25,7 +25,6 @@ function countSmileys(arr) {
             smileyMap.three.map(smile => smile === smiley ? answer++ : null)
         } else {
             smileyMap.two.map(smile => smile === smiley ? answer++ : null)
-
         }
     })
     return answer
